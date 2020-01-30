@@ -114,7 +114,7 @@ class Git(SourceControl):
     """
     The user has git installed
     """
-    codecommit_remote_name = 'codecommit-origin'
+    codecommit_remote_name = 'origin'
 
     def get_name(self):
         return 'git'
